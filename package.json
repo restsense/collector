@@ -1,0 +1,18 @@
+{
+  "name": "restsense-collector",
+  "version": "1.0.0",
+  "description": "Collector for OTLP/GRPC metrics",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [ "opentelemetry", "collector", "grpc", "otlp", "metrics", "restsense" ],
+  "author": "alesancor1",
+  "license": "GNU General Public License v3.0",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.8.14",
+    "@grpc/proto-loader": "^0.7.6",
+    "mongoose": "^7.1.0"
+  }
+}
